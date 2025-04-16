@@ -1,15 +1,127 @@
-/* Fonte regular */
-@font-face {
-    font-family: 'PlusJakartSans';
-    src: url('./assets/Fonte/static/PlusJakartaSans-Regular.ttf') format('truetype');
+
+body {
+    background: #F3F3F3;
+    width: 1490px;
+}
+
+/* MARK: Header */
+
+header {
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-/* Fonte em negrito */
-@font-face {
-    font-family: 'PlusJakartSans';
-    src: url('./assets/Fonte/static/PlusJakartaSans-Bold.ttf') format('truetype');
+#date, 
+#locality, 
+#priceDolar,
+#priceEuro,
+#pricePeso {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+    margin-top: 9px;
+    height: 18px;
+    display: inline;
+}
+
+#date {
+    margin-left: 145px;
+    width: 114px;
+}
+
+#locality {
+    margin-left: 50px;
+    width: 135px;
+}
+
+#priceDolar {
+    margin-left: 550px;
+    width: 72px;
+}
+
+#priceEuro {
+    margin-left: 32px;
+    width: 71px;
+}
+
+#pricePeso {
+    margin-left: 32px;
+    width: 76px;
+}
+
+.priceArrow {
+    margin-left: 10px;
+    width: 9px;
+    height: 7px;
+    transform: translateY(-21%);
+}
+
+#headerLine {
+    margin-top: 9px;
+    margin-left: 145px;
+    width: 1200px;
+    height: 0;
+    border: 1px solid #DDDDDD;
+}
+
+#degree, 
+.price, 
+#search span {
     font-weight: 700;
-    font-style: normal;
+}
+
+#mainHeader,
+#search,
+#socialMedias {
+    display: flex;
+    justify-content: left;
+}
+
+#search {
+    align-items: center;
+    margin-left: 145px;
+}
+
+#search img {
+    margin-top: 31px;
+    width: 24px;
+    height: 24px;
+    margin-top: 31px;
+}
+
+#search span {
+    margin-top: 32px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 421px;
+    width: 183px;
+    height: 46px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+#x,
+#facebook,
+#instagram {
+    margin-top: 26px;
+}
+
+#x {
+    margin-left: 382px;
+}
+
+#facebook,
+#instagram {
+    margin-left: 12px;
 }

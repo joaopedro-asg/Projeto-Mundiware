@@ -4,11 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+    </style>
     <title>Mundiware</title>
 </head>
 <body>
     <header>
+        <div id="infos">
+            <time id="date" datetime="2024-05-24">24 de Maio, 2024</time>
 
+            <p id="locality">
+                <data id="degree" value="29">29°</data>
+                <data value="23">23°</data> |
+                <span itemprop="addressLocality">Penedo-AL</span>
+            </p>
+
+            <p id="priceDolar">
+                Dólar |
+                <data class="price" value="5.14">5,14</data>
+            </p>
+            <img class="priceArrow" src="./assets/SVG/subiu.svg" alt="subiu">
+
+            <p id="priceEuro">
+                Euro |
+                <data class="price" value="5.58">5,58</data>
+            </p>
+            <img class="priceArrow" src="./assets/SVG/subiu.svg" alt="subiu">
+
+            <p id="pricePeso">
+                Peso |
+                <data class="price" value="0.06">0,06</data>
+            </p>
+            <img class="priceArrow" src="./assets/SVG/baixou.svg" alt="baixou">
+        </div>
+
+        <hr id="headerLine">
+
+        <div id="mainHeader">
+            <div id="search">
+                <img src="./assets/SVG/buscar.svg" alt="buscar">
+                <span>Buscar</span>
+            </div>
+
+            <figure id="logo">
+                <img src="./assets/logo_horizontal.svg" alt="logo">
+            </figure>
+
+            <div id="socialMedias">
+                <figure>
+                    <img id="x" src="./assets/SVG/x.svg" alt="x">
+                </figure>
+                <figure>
+                    <img id="facebook" src="./assets/SVG/facebook.svg" alt="facebook">
+                </figure>
+                <figure>
+                    <img id="instagram" src="./assets/SVG/instagram.svg" alt="instagram">
+                </figure>
+            </div>
+        </div>
     </header>
 
     <main>
