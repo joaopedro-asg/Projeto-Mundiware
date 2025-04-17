@@ -11,6 +11,10 @@ body {
 
 /* MARK: Header */
 
+#infos {
+    display: flex;
+}
+
 #date, 
 #locality, 
 #priceDolar,
@@ -33,11 +37,11 @@ body {
 
 #locality {
     margin-left: 50px;
-    width: 135px;
+    width: 150px;
 }
 
 #priceDolar {
-    margin-left: 550px;
+    margin-left: 540px;
     width: 72px;
 }
 
@@ -691,7 +695,6 @@ figure {
 
 #tags li {
     margin-top: 48px;
-    
     padding-block: 8px;
     padding-inline: 18px;
     font-size: 14px;
