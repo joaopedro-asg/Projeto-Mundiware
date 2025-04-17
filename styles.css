@@ -330,7 +330,8 @@ figure {
     margin-left: 22px;
 }
 
-.readSubItems {
+.readSubItems,
+.showName {
     display: flex;
     align-items: center;
 }
@@ -353,7 +354,7 @@ figure {
     background-color: #E51D35;
 }
 
-.curiosities {
+.redBarWord {
     margin-left: 3px;
     font-size: 12px;
     width: 92px;
@@ -456,6 +457,7 @@ figure {
 #watch {
     margin-top: 34px;
     margin-left: 145px;
+    margin-bottom: 34px;
     width: 480px;
     height: 328px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -640,5 +642,182 @@ figure {
     margin-left: 42px;
     width: 300px;
     height: 250px;
+    opacity: 1;
+}
+
+.mainLine {
+    margin-top: 0;
+    margin-left: 145px;
+    margin-bottom: 0;
+    width: 786px;
+    height: 0px;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+}
+
+#tags {
+    display: flex;
+    align-content: center;
+    font-weight: 700;
+}
+
+#tags h2 {
+    margin-left: 145px;
+    margin-right: 16px;
+    width: 104px;
+    height: 61px;
+    font-size: 48px;
+    text-align: left;
+    letter-spacing: -0.96px;
+    color: #1C1C1C;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+#tags ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+#tags li {
+    margin-top: 48px;
+    
+    padding-block: 8px;
+    padding-inline: 18px;
+    font-size: 14px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+    background: #5C5C5C00 0% 0% no-repeat padding-box;
+    border: 1px solid #E51D35;
+    border-radius: 4px;
+    opacity: 1;
+    letter-spacing: 0;
+    color: #1C1C1C;
+}
+
+#plusStart {
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+}
+
+#plusStart h2 {
+    margin-top: 34px;
+    margin-left: 145px;
+    width: 103px;
+    height: 61px;
+    font-size: 48px;
+    text-align: left;
+    letter-spacing: -0.96px;
+    color: #1C1C1C;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-block-end: 0;
+}
+
+#plusStart img {
+    margin-top: 56px;
+    margin-left: 16px;
+    width: 24px;
+    height: 28px;
+    opacity: 1;
+}
+
+#plusStart span {
+    margin-top: 56px;
+    margin-left: 8px;
+    width: 81px;
+    height: 28px;
+    font-size: 22px;
+    text-align: left;
+    letter-spacing: -0.22px;
+    color: #1C1C1C;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+#plusContents {
+    margin-top: 22px;
+    margin-left: 145px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+#plusContents figure {
+    width: 246px;
+    height: 302px;
+    position: relative;
+}
+
+.emoji {
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 90px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background: rgba(29, 28, 29, 0.7) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.emoji img {
+    width: 18px;
+    height: auto;
+}
+
+.emoji,
+.plusText {
+    position: absolute;
+}
+
+.plusImg {
+    background: transparent linear-gradient(180deg, #1C1C1C00 0%, #1C1C1C 100%) 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.plusText {
+    transform: translateY(-149px);
+    margin-left: 20px;
+    width: 206px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+}
+
+.redBarWordPlus {
+    margin-left: 3px;
+    font-size: 12px;
+    width: 92px;
+    height: 15px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#plusContents p {
+    margin-top: 16px;
+    width: 206px;
+    height: 95px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: -0.07px;
+    color: #FFFFFF;
     opacity: 1;
 }
